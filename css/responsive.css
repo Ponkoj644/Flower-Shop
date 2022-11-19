@@ -1,0 +1,771 @@
+/* XXL device */
+@media (min-width: 1400px) and (max-width: 2560px) {
+  .rose:hover h1::before {
+    width: 310px;
+  }
+  .rose h1::before {
+    left: 38%;
+  }
+  .rose:hover h1::after {
+    width: 310px;
+  }
+  .rose h1::after {
+    right: 38%;
+  }
+  .tulip:hover h1::before {
+    width: 310px;
+  }
+
+  .tulip h1::before {
+    left: 38%;
+  }
+  .tulip:hover h1::after {
+    width: 310px;
+  }
+  .tulip h1::after {
+    right: 38%;
+  }
+  .mixed:hover h1::before {
+    width: 335px;
+  }
+  .mixed h1::before {
+    left: 37%;
+  }
+  .mixed:hover h1::after {
+    width: 335px;
+  }
+  .mixed h1::after {
+    right: 37%;
+  }
+
+  .pricing h1::before {
+    left: 39%;
+  }
+  .pricing:hover h1::before {
+    width: 285px;
+  }
+  .pricing h1::after {
+    right: 39%;
+  }
+
+  .pricing:hover h1::after {
+    width: 285px;
+  }
+  .wehave h1::before {
+    left: 43%;
+  }
+  .wehave:hover h1::before {
+    width: 185px;
+  }
+  .wehave h1::after {
+    right: 43%;
+  }
+  .wehave:hover h1::after {
+    width: 185px;
+  }
+  .contact h1::before {
+    left: 42%;
+  }
+  .contact:hover h1::before {
+    width: 225px;
+  }
+  .contact h1::after {
+    right: 41%;
+  }
+  .contact:hover h1::after {
+    width: 225px;
+  }
+  .carousel .carousel-caption p {
+    margin-bottom: 70px;
+  }
+}
+
+/* XL device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .mixed h1::before {
+    left: 36%;
+  }
+  .mixed:hover h1::before {
+    width: 310px;
+  }
+
+  .mixed h1::after {
+    right: 37%;
+  }
+  .mixed:hover h1::after {
+    width: 310px;
+  }
+  .wehave h1::before {
+    left: 42%;
+  }
+  .wehave:hover h1::before {
+    width: 185px;
+  }
+
+  .wehave h1::after {
+    right: 42%;
+  }
+  .wehave:hover h1::after {
+    width: 185px;
+  }
+
+  .contact h1::before {
+    left: 40%;
+  }
+  .contact:hover h1::before {
+    width: 225px;
+  }
+  .contact h1::after {
+    right: 40%;
+  }
+  .contact:hover h1::after {
+    width: 225px;
+  }
+}
+
+/* LG device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar .navbar-brand img {
+    width: 30%;
+  }
+  .rose:hover h1::before {
+    width: 300px;
+  }
+  .rose h1::before {
+    left: 34%;
+  }
+  .rose:hover h1::after {
+    width: 300px;
+  }
+  .rose h1::after {
+    right: 35%;
+  }
+
+  .tulip h1::before {
+    left: 34%;
+  }
+  .tulip:hover h1::before {
+    width: 305px;
+  }
+  .tulip h1::after {
+    right: 34%;
+  }
+  .tulip:hover h1::after {
+    width: 305px;
+  }
+
+  .mixed h1::before {
+    left: 34%;
+  }
+  .mixed:hover h1::before {
+    width: 300px;
+  }
+  .mixed h1::after {
+    right: 35%;
+  }
+  .mixed:hover h1::after {
+    width: 300px;
+  }
+
+  .pricing h1::before {
+    left: 35%;
+  }
+  .pricing:hover h1::before {
+    width: 285px;
+  }
+  .pricing h1::after {
+    right: 35%;
+  }
+  .pricing:hover h1::after {
+    width: 285px;
+  }
+  .wehave h1::before {
+    left: 40%;
+  }
+  .wehave:hover h1::before {
+    width: 185px;
+  }
+  .wehave:hover h1::after {
+    width: 185px;
+  }
+  .wehave h1::after {
+    right: 41%;
+  }
+  .wehave:hover h1::after {
+    width: 185px;
+  }
+
+  .contact h1::before {
+    left: 38%;
+  }
+  .contact:hover h1::before {
+    width: 225px;
+  }
+
+  .contact h1::after {
+    right: 39%;
+  }
+  .contact:hover h1::after {
+    width: 225px;
+  }
+
+  .carousel .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+/* M device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar .navbar-brand img {
+    width: 30%;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    margin: 10px 0px;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .rose:hover h1::before {
+    width: 275px;
+  }
+  .rose h1::before {
+    left: 31%;
+  }
+  .rose:hover h1::after {
+    width: 275px;
+  }
+  .rose h1::after {
+    right: 31%;
+  }
+
+  .tulip h1::before {
+    left: 30%;
+  }
+  .tulip:hover h1::before {
+    width: 290px;
+  }
+
+  .tulip h1::after {
+    right: 30%;
+  }
+  .tulip:hover h1::after {
+    width: 290px;
+  }
+  .tulip .carousel {
+    margin-bottom: 24px;
+  }
+
+  .mixed h1::before {
+    left: 29%;
+  }
+  .mixed:hover h1::before {
+    width: 300px;
+  }
+  .mixed h1::after {
+    right: 29%;
+  }
+  .mixed:hover h1::after {
+    width: 300px;
+  }
+
+  .pricing h1::before {
+    left: 32%;
+  }
+  .pricing:hover h1::before {
+    width: 260px;
+  }
+  .pricing h1::after {
+    right: 32%;
+  }
+  .pricing:hover h1::after {
+    width: 260px;
+  }
+  .price h3 {
+    font-size: 55px;
+  }
+  .wehave:hover h1::before {
+    width: 170px;
+  }
+  .wehave h1::before {
+    left: 38%;
+  }
+  .wehave:hover h1::before {
+    width: 170px;
+  }
+
+  .wehave h1::after {
+    right: 38%;
+  }
+  .wehave:hover h1::after {
+    width: 170px;
+  }
+  .wehave .carousel .carousel-caption p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .wehave .carousel .carousel-caption h5 {
+    font-size: 25px;
+    margin: 7px 0;
+  }
+
+  .contact h1::before {
+    left: 36%;
+  }
+  .contact:hover h1::before {
+    width: 200px;
+  }
+
+  .contact h1::after {
+    right: 36%;
+  }
+  .contact:hover h1::after {
+    width: 200px;
+  }
+
+  .carousel .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 70px;
+  }
+  .mixed .carousel .carousel-caption p {
+    margin-bottom: 100px;
+  }
+  .footer h6 {
+    text-align: center;
+  }
+  .footer ul {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+/* SM device */
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar .navbar-brand img {
+    width: 40%;
+  }
+  .navbar-nav {
+    text-align: start;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    margin: 10px 0px;
+  }
+  .rose h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::before {
+    width: 250px;
+  }
+
+  .rose h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::after {
+    width: 250px;
+  }
+
+  .tulip h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::before {
+    width: 250px;
+  }
+
+  .tulip h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::after {
+    width: 250px;
+  }
+
+  .mixed h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mixed:hover h1::before {
+    width: 275px;
+  }
+
+  .mixed h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mixed:hover h1::after {
+    width: 275px;
+  }
+  .pricing h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::before {
+    width: 250px;
+  }
+  .pricing h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::after {
+    width: 250px;
+  }
+  .wehave h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::before {
+    width: 145px;
+  }
+
+  .wehave h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::after {
+    width: 145px;
+  }
+  .contact h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::before {
+    width: 180px;
+  }
+  .contact h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::after {
+    width: 180px;
+  }
+  .footer h6 {
+    text-align: center;
+  }
+  .footer ul {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .rose .carousel .carousel-inner .carousel-caption,
+  .tulip .carousel .carousel-inner .carousel-caption,
+  .mixed .carousel .carousel-inner .carousel-caption,
+  .wehave .carousel .carousel-inner .carousel-caption {
+    display: inherit !important;
+  }
+  .carousel .carousel-caption h5,
+  .tulip .carousel-caption h5,
+  .mixed .carousel-caption,
+  .wehave .carousel-caption {
+    font-size: 25px;
+  }
+  .rose .carousel .carousel-caption p,
+  .tulip .carousel .carousel-caption p,
+  .mixed .carousel-caption p,
+  .wehave .carousel-caption p {
+    font-size: 16px;
+  }
+  .wehave .carousel .carousel-caption p {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .tulip .carousel {
+    margin-bottom: 24px;
+  }
+}
+
+/* XS device */
+@media (min-width: 321px) and (max-width: 575px) {
+  /* additional css */
+  .navbar .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+  }
+  .navbar .navbar-brand img {
+    width: 30%;
+  }
+  .navbar-light .navbar-toggler {
+    margin: auto;
+  }
+  .navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* additional css end */
+
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  .rose h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::before {
+    width: 230px;
+  }
+
+  .rose h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::after {
+    width: 230px;
+  }
+
+  .tulip h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::before {
+    width: 230px;
+  }
+
+  .tulip h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::after {
+    width: 230px;
+  }
+
+  .mixed:hover h1::before {
+    width: 250px;
+  }
+  .mixed h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mixed:hover h1::after {
+    width: 250px;
+  }
+  .mixed h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::before {
+    width: 225px;
+  }
+  .pricing h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::after {
+    width: 225px;
+  }
+  .price h2 {
+    font-size: 22px;
+  }
+  .price h3 {
+    font-size: 50px;
+  }
+  .price h3 sup {
+    font-size: 25px;
+  }
+  .wehave h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::before {
+    width: 130px;
+  }
+
+  .wehave h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::after {
+    width: 130px;
+  }
+
+  .contact h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::before {
+    width: 165px;
+  }
+  .contact h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::after {
+    width: 165px;
+  }
+  .footer h6 {
+    text-align: center;
+  }
+  .footer ul {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .rose .carousel,
+  .tulip .carousel,
+  .mixed .carousel,
+  .wehave .carousel {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  /* additional css */
+  .navbar .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+  }
+  .navbar .navbar-brand img {
+    width: 50%;
+  }
+  .navbar-light .navbar-toggler {
+    margin: auto;
+  }
+  .navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  /* additional css end */
+
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    margin: 10px 0px;
+  }
+
+  .rose h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::before {
+    width: 210px;
+  }
+
+  .rose h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .rose:hover h1::after {
+    width: 210px;
+  }
+  .tulip h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::before {
+    width: 210px;
+  }
+
+  .tulip h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tulip:hover h1::after {
+    width: 210px;
+  }
+  .mixed:hover h1::before {
+    width: 230px;
+  }
+  .mixed h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mixed:hover h1::after {
+    width: 230px;
+  }
+  .mixed h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pricing h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::before {
+    width: 190px;
+  }
+  .pricing h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pricing:hover h1::after {
+    width: 190px;
+  }
+  .price h2 {
+    font-size: 20px;
+  }
+  .price h3 {
+    font-size: 50px;
+  }
+  .price h3 sup {
+    font-size: 25px;
+  }
+
+  .wehave h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::before {
+    width: 125px;
+  }
+
+  .wehave h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wehave:hover h1::after {
+    width: 125px;
+  }
+  .detail h2 {
+    font-size: 35px;
+  }
+  .contact h1::before {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::before {
+    width: 150px;
+  }
+  .contact h1::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact:hover h1::after {
+    width: 150px;
+  }
+  .footer h6 {
+    text-align: center;
+  }
+  .footer ul {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .rose .carousel,
+  .tulip .carousel,
+  .mixed .carousel,
+  .wehave .carousel {
+    display: none;
+  }
+}

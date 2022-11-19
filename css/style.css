@@ -1,0 +1,754 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #e6e6e6;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Prompt", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+.hg {
+  height: 90vh;
+}
+
+.hidden {
+  display: none;
+}
+.fw {
+  width: 100%;
+}
+
+/* Header Section start */
+
+.navbar .navbar-brand {
+  width: 50%;
+}
+.navbar .navbar-brand img {
+  width: 20%;
+}
+/* nav toggler start */
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+.toggler-icon {
+  display: flex;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #ffe53b;
+  background-image: linear-gradient(
+    90deg,
+    #ffe53b 0%,
+    #ff2525 37%,
+    #355f8e 100%
+  );
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s all ease-in-out;
+}
+.middle-bar {
+  margin-top: 0px;
+}
+/* when navigation is clicked */
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar {
+  opacity: 0%;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+/* state when the navbar is collaspe */
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -7px;
+  transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  padding: 3px;
+  background: #0e1424;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 10px;
+  transform: rotate(0deg);
+}
+/* color of 3 line */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #ffe53b;
+  background-image: linear-gradient(
+    90deg,
+    #ffe53b 0%,
+    #ff2525 37%,
+    #355f8e 100%
+  );
+}
+
+/* nav toggler end */
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  font-weight: 400;
+  padding: 0;
+  margin: 20px;
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(18 27 44);
+}
+/* Header Section end */
+
+/* banner section start */
+.banner {
+  background-image: url(../img/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text {
+}
+.banner-text h1 {
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+.banner-text p {
+  color: #fff;
+  margin: 15px 0;
+}
+.banner-text a {
+  padding: 0;
+  color: var(--text-color);
+  font-size: 18px;
+  margin-top: 10px;
+}
+.banner-text a:focus {
+  box-shadow: none;
+}
+/* banner section end */
+
+/* product section start */
+.rose {
+}
+.rose h1 {
+  position: relative;
+}
+.rose h1::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.rose:hover h1::before {
+  width: 300px;
+}
+.rose h1::after {
+  content: "";
+  position: absolute;
+  right: 37%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+
+.rose:hover h1::after {
+  width: 300px;
+}
+.r-pic {
+  padding: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.r-pic h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.r-pic a {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #212529;
+  transition: 0.3s all ease-in-out;
+}
+.r-pic a:hover {
+  color: red;
+}
+.r-pic:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Carousel part */
+.rose .carousel .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.6;
+}
+.carousel .carousel-caption h5 {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.carousel .carousel-caption p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.carousel .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.6;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(39, 39, 39);
+}
+
+/* Tulip */
+.tulip {
+}
+.tulip h1 {
+  position: relative;
+}
+.tulip h1::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.tulip:hover h1::before {
+  width: 295px;
+}
+.tulip h1::after {
+  content: "";
+  position: absolute;
+  right: 37%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+
+.tulip:hover h1::after {
+  width: 295px;
+}
+.t-pic {
+  padding: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.t-pic img {
+}
+.t-pic h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.t-pic a {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #212529;
+  transition: 0.3s all ease-in-out;
+}
+.t-pic a:hover {
+  color: red;
+}
+.t-pic:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Mixed */
+.mixed {
+}
+.mixed h1 {
+  position: relative;
+}
+.mixed h1::before {
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.mixed:hover h1::before {
+  width: 335px;
+}
+.mixed h1::after {
+  content: "";
+  position: absolute;
+  right: 35%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.mixed:hover h1::after {
+  width: 335px;
+}
+
+.m-pic {
+  padding: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.m-pic h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.m-pic a {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #212529;
+  transition: 0.3s all ease-in-out;
+}
+.m-pic a:hover {
+  color: red;
+}
+.m-pic:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+}
+/* product section end */
+
+/* pricing section start  */
+.pricing {
+}
+.pricing h1 {
+  position: relative;
+}
+.pricing h1::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.pricing:hover h1::before {
+  width: 300px;
+}
+.pricing h1::after {
+  content: "";
+  position: absolute;
+  right: 37%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.pricing:hover h1::after {
+  width: 300px;
+}
+.price {
+  border: 1px solid #adb5bd;
+  background-color: #fea80033;
+}
+.price h2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 25px 0;
+  letter-spacing: 1px;
+  background-color: #ff6200;
+  border-radius: 0px 0px 50px 50px;
+  transition: 0.4s all ease-in-out;
+}
+.price h3 {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.price h3 sup {
+  font-size: 30px;
+  font-weight: 400;
+}
+.price h4 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.price p {
+  margin: 7px;
+}
+.price i {
+  margin-right: 10px;
+  color: #ff6200;
+}
+.price hr {
+  margin: 0;
+}
+.btn-ordernow {
+  padding: 0;
+  padding: 10px 20px;
+  border: 1px solid;
+  margin: 30px 0;
+  color: #ff6200;
+  text-transform: capitalize;
+  transition: 0.4s all ease-in-out;
+}
+.price:hover h2 {
+  background: #c05f23;
+  color: var(--text-color);
+}
+.price:hover .btn-ordernow {
+  background-color: #c05f23;
+  color: var(--text-color);
+}
+/* pricing section end  */
+
+/* we have section start  */
+.wehave {
+}
+.wehave h1 {
+  position: relative;
+  text-transform: capitalize;
+}
+.wehave h1::before {
+  content: "";
+  position: absolute;
+  left: 43%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.wehave:hover h1::before {
+  width: 160px;
+}
+.wehave h1::after {
+  content: "";
+  position: absolute;
+  right: 43%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.wehave:hover h1::after {
+  width: 160px;
+}
+.detail {
+  background: #e4d4dd;
+  padding: 47px 0;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.detail i {
+  font-size: 24px;
+  color: #7a3333;
+  margin: 10px 0;
+}
+.detail h2 {
+  font-size: 40px;
+  padding: 10px 0;
+}
+.detail p {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.btn-view {
+  padding: 0;
+  padding: 7px 10px;
+}
+.btn-view:focus {
+  box-shadow: none;
+}
+.btn-view:hover i {
+  transform: translatex(5px);
+  transition: 0.4s all ease-in-out;
+}
+.detail .btn-view i {
+  font-size: 16px;
+  margin: 0;
+  margin-left: 5px;
+}
+.wehave .carousel .carousel-caption p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.wehave .carousel .carousel-caption h5 {
+  font-size: 22px;
+  margin: 5px;
+}
+.wehave .carousel .carousel-caption h4 {
+  font-size: 18px;
+  margin: 5px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.wehave .carousel .carousel-caption .c-img img {
+  width: 20%;
+  border-radius: 50%;
+}
+.wehave .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+/* we have section end  */
+
+/* contact section start */
+.contact {
+  background-image: url(../img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact h1 {
+  color: var(--text-color);
+  position: relative;
+  text-transform: capitalize;
+}
+.contact h1::before {
+  content: "";
+  position: absolute;
+  left: 41%;
+  top: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.contact:hover h1::before {
+  width: 200px;
+}
+.contact h1::after {
+  content: "";
+  position: absolute;
+  right: 41%;
+  bottom: -2%;
+  width: 0px;
+  height: 2px;
+  background: red;
+  transition: 0.4s all ease-in-out;
+}
+.contact:hover h1::after {
+  width: 200px;
+}
+form {
+}
+form input {
+  background: transparent !important;
+  border: none !important;
+  border: 1px solid #b2b0b0 !important;
+  font-size: 18px !important;
+  color: #ffffff !important;
+  caret-color: var(--text-color);
+}
+form input::placeholder {
+  /* color: var(--text-color) !important; */
+  color: #b2b0b0 !important;
+}
+
+form input[type="submit"] {
+  padding: 0 !important;
+  padding: 5px 30px !important;
+  font-size: 16px !important;
+  transition: 0.4s all ease-in-out;
+  border-radius: 3px;
+}
+form input[type="submit"]:hover {
+  background: rgb(136, 35, 35) !important;
+  border: 1px solid rgb(136, 35, 35) !important;
+}
+form textarea {
+  background: transparent !important;
+  border: none !important;
+  border: 1px solid #b2b0b0 !important;
+  font-size: 18px !important;
+  color: var(--text-color) !important;
+}
+form textarea::placeholder {
+  color: #b2b0b0 !important;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+/* contact section end */
+
+/* footer section start */
+.footer {
+  background-color: rgb(27, 27, 27);
+  color: #fff;
+}
+
+.footer h6 {
+  font-size: 16px;
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.footer span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.footer ul li {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.4s all ease-in-out;
+}
+.footer ul li:hover {
+  background-color: rgb(75, 73, 73);
+  color: red;
+  transform: translateY(-5px);
+}
+.footer ul li a {
+  color: rgb(48, 48, 48);
+  font-size: 18px;
+}
+.footer ul li i {
+  font-weight: 600;
+}
+/* footer section end */
+
+/* Back to top button */
+#progress {
+  /* background: #03cc65; */
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #001a2e;
+}
+
+/* Designed by "Ponkoj Mondol", Full Stack Web Designer & Developer */
